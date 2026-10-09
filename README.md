@@ -19,4 +19,4 @@ Fase 0: preparación
 
 ## Autor
 
-[JULIAN ARTURO CRUZ PEREZ]
+Julian Arturo Cruz Perez
