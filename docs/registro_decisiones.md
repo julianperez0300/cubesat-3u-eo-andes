@@ -29,6 +29,15 @@ Cada supuesto debe indicar en qué fase se valida.
   franjas o filtro intercambiable).
 - **Estado:** Abierta (arquitectura se define en Fase 3)
 
+## D-004 | Fecha: 2026-10-10
+- **Decisión:** Software de CAD: KOMPAS-3D, con exportación a STEP
+- **Alternativas consideradas:** SolidWorks (costo de licencia), FreeCAD, Fusion 360, Onshape
+- **Justificación:** El autor ya domina KOMPAS-3D, lo que evita una curva de aprendizaje
+  larga. STEP (ISO 10303) permite que cualquier CAD abra el diseño.
+- **Impacto:** Fase 8. La carpeta `cad/` incluirá STEP y PDF de planos además del formato nativo.
+- **Pendiente:** Prueba de ida y vuelta KOMPAS → STEP → FreeCAD con un cubo de 100 mm.
+- **Estado:** Cerrada (se reabre solo si la prueba de STEP falla)
+
 ---
 
 ## S-001 | Supuesto
