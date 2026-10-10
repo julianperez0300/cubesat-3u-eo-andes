@@ -10,7 +10,8 @@ Cada supuesto debe indicar en qué fase se valida.
 - **Alternativas consideradas:** 1U, 2U, 6U
 - **Justificación:** Espacio suficiente para una óptica de ~1,5U y estándar
   con amplia oferta de componentes comerciales (COTS).
-- **Impacto:** Masa máxima ~4 kg y volumen limitado para la óptica.
+- **Impacto:** Masa máxima típica según CDS Rev. 14.1, Tabla 1 (sección 2.2.10);
+  el valor definitivo depende del dispensador y del proveedor de lanzamiento.
 - **Estado:** Abierta (se revisa si la carga útil no cabe)
 
 ## D-002 | Fecha: 2026-10-09
