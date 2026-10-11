@@ -16,7 +16,7 @@ Cada dato lleva su fuente (documento, versión y número de sección o página).
 - **Tolerancia general de los dibujos:** ± 0,1 mm (Apéndice B, pág. 31, cuadro de rótulo)
 - **Masa máxima típica 3U:** 6 kg (sección 2.2.10, Tabla 1)
 - **¿Se puede superar esa masa?:** SI, PERO DEPENDE DEL DISPENSADOR (secciones 2.2.10.1 y 2.2.10.2)
-- **Dispensador:** P-POD CAL POLY (RAIL, 3U, ACCESS PORTS, PURGE, RF INSULATION, VIBRATION ATTENUATION, Z CONSTRAINT, -Z ADITIONAL VOLUME(TUNA CAN)) (Tabla 3)
+- **Dispensador elegido:** P-POD CAL POLY (RAIL, 3U, ACCESS PORTS, PURGE, RF INSULATION, VIBRATION ATTENUATION, Z CONSTRAINT, -Z ADITIONAL VOLUME(TUNA CAN)) (Tabla 3)
 
 #### Centro de gravedad
 - **Límite en X:** ±2 cm DESDE EL CENTRO GEOMETRICO (sección 2.2.11, Tabla 2)
@@ -28,7 +28,7 @@ Cada dato lleva su fuente (documento, versión y número de sección o página).
 - **Cumplir normas para propulsiones, materiales y explosivos:** AFSPCMAN 91-710 (sección 2.1.2/3/6)
 - **Protrusión máxima sobre las caras amarillas:** 6,5 mm PERPENDICULAR A LA SUPERFICIE(sección 2.2.3)
 - **Anchura mínima del riel:** 8,5 mm DESDE EL BORDE DEL RIEL A LA PRIMERA PROTUCION (sección 2.2.5)
-- **Rugosidad de los rieles:** 1,6 μm (sección 2.2.6)
+- **Rugosidad de los rieles:** < 1,6 μm max (sección 2.2.6)
 - **Radio mínimo de los bordes de los rieles:** 1 mm (sección 2.2.7)
 - **Área de contacto en los extremos de los rieles:** 6,5 x 6,5 mm (sección 2.2.8)
 - **Porcentaje mínimo de riel en contacto con el dispensador:** 75% (sección 2.2.9)
@@ -44,7 +44,7 @@ Cada dato lleva su fuente (documento, versión y número de sección o página).
 - **Estado de energía desde la entrega hasta el despliegue:** APAGADO (sección 2.3.1)
 - **Interruptores de despliegue mínimos:** 1 (sección 2.3.2)
 - **Reglas RTC:** AISLADO, FRECUENCIA < 320kHz, CORRIENTE < 10 mA (sección 2.3.3)
-- **Pin RBF y cuánto puede sobresalir:** RETIRAR ANTES DE INTEGRACION  AL DISPENSADOR, 6,5 mm SOBRE LA SUPERFICIE DEL RIEL, CORTAR ENERGIA (sección 2.3.5)
+- **Pin RBF y cuánto puede sobresalir:** RETIRAR ANTES DE INTEGRACION  AL DISPENSADOR, SE PUEDE RETIRAR DESPUES SI TIENEN ACCESS PORTS, 6,5 mm SOBRE LA SUPERFICIE DEL RIEL, CORTAR ENERGIA (sección 2.3.5)
 - **Proteccion de baterias:** SOLO EL CIRCUITO DE PROTECCION PUEDE ESTAR ENERGIZADO DESDE EL INICIO (sección 2.3.6)
 - **Inhibidores contra transmisión RF accidental:** 3 (sección 2.3.7)
 - **Inhibidores contra despliegues accidentales:** 3 (sección 2.3.8)
