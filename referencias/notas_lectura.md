@@ -70,12 +70,79 @@ Cada dato lleva su fuente (documento, versión y número de sección o página).
 - **"Tuna Can" del 3U, diámetro y altura máximos:** D 64 max, 50/50 CENTRADO, 36 mm max DEL STANDOFF (sección 2.2.1.3 y pág. 32)
 - **¿Está garantizado?:** SE PUEDE PERO PREFERIBLEMENTE NO (sección 2.2.1.3)
 
-### Dudas y cosas por investigar
-
----
-
 ## 2. NASA CubeSat 101
-(pendiente)
+- Título: CubeSat 101: Basic Concepts and Processes for First-Time CubeSat Developers
+- Editor: NASA CubeSat Launch Initiative (CSLI); redactado por Cal Poly
+- Versión leída: revisión de octubre de 2017 (NP-2017-10-2470-HQ)
+- Fecha de lectura: 2026-10-11
+- Páginas: se cita el número impreso al pie, no el del visor PDF
+- Contexto: documento de 2017 y centrado en EE. UU. (CSLI, FCC, NOAA). Si contradice
+  al CDS Rev. 14.1, manda el CDS; por encima de ambos, el ICD de la misión.
+
+### Cap. 1 — Introducción
+- **Qué distingue a un CubeSat de un "small satellite" genérico:** ___ (1.1, p. 4)
+- **Por qué la estandarización reduce costos (dos mecanismos):** ___ (1.1, p. 4)
+- **¿El CDS es el requisito oficial de lanzamiento? ¿Cuál lo es?:** ___ (1.1, p. 4; 4.1 y 4.3, p. 40)
+- **Tres funciones del dispensador:** ___ (1.2, p. 4)
+- **Quién elige normalmente el dispensador:** ___ (1.2, p. 5)
+- **Funcionamiento básico del P-POD y capacidad:** ___ (1.2.1, p. 5)
+- **Condiciones para que un lanzador pueda llevar CubeSats:** ___ (1.3, p. 8)
+- **Implicación para mi proyecto:** ___
+
+### Cap. 2 — Proceso de desarrollo
+- **Duración típica de diseño a entrega, y antelación de entrega antes del lanzamiento:** ___ (intro cap. 2, p. 9)
+- **2.1 Concepto — consejo sobre flexibilidad de la órbita y por qué importa:** ___ (p. 11)
+  - Implicación para D-002 (SSO ~550 km): ___
+- **2.2 Financiación — qué cubre CSLI, qué no, y reserva de presupuesto recomendada:** ___ (pp. 11–14)
+  - Categorías de costo a incluir en el paso 10.4: ___ (Fig. 9, p. 12; p. 13)
+- **2.3 Revisión de mérito vs. revisión de factibilidad (qué evalúa cada una, quién revisa):** ___ (pp. 14–15)
+  - Cómo aplico esa idea en mis cierres de fase: ___
+- **2.4 Diseño — consejos "Free Advice" (en mis palabras) y la decisión de mi diseño que afecta cada uno:** (p. 16)
+  | Consejo | Qué decisión de mi CubeSat afecta |
+  |---|---|
+  | ___ | ___ |
+- **2.8 Licencias — cuántas licencias distintas, cuándo pedirlas, qué pasa si no están a tiempo:** ___ (pp. 20–21)
+- **2.10 Estación terrena — componentes mínimos, por qué hacerla pronto, cómo practicar:** ___ (pp. 22–23)
+- **2.16 Operaciones — TLE, vectores de estado, cómo se identifica el satélite tras el lanzamiento:** ___ (pp. 29–30)
+  - Relación con mis herramientas (sgp4, skyfield, GMAT): ___
+
+### Cap. 5 — Licencias
+- **Qué dice el documento sobre organizaciones no estadounidenses:** ___ (intro cap. 5, p. 43)
+- **5.1 Los cuatro tipos de licencia de radio y cuál correspondería a un proyecto no comercial:** ___ (p. 44)
+- **5.1 Coordinación con la IARU — cuándo es necesaria, cuándo pedirla y por qué tarda:** ___ (pp. 45–46, 49)
+- **5.1 Restricciones técnicas de diseño impuestas por la regulación:** ___ (pp. 47–48)
+- **5.1 Plazo mínimo de tramitación citado:** ___ (p. 49)
+- **5.2 Quién necesita licencia de teledetección, plazo aproximado y qué es el NEI waiver:** ___ (pp. 51–52)
+- **5.2 Obligaciones después del lanzamiento:** ___ (p. 52)
+- **Equivalente en Colombia:** NO está en este documento; se investiga en el paso 10.2.
+
+### Cap. 6 — Documentación de certificación (hojeado)
+- **Antelación del primer entregable respecto a la entrega del satélite:** ___ (p. 53)
+
+| # | Entregable | Sección | Qué demuestra (en mis palabras) | Paso de mi plan que lo produce |
+|---|---|---|---|---|
+| 1 | ODAR (desechos orbitales) | 6.1 | ___ | 2.4 y 10.3 |
+| 2 | Transmitter survey | 6.2 | ___ | 7.1–7.2 |
+| 3 | Lista de materiales (TML/CVCM) | 6.3 | ___ | 8.3 |
+| 4 | Propiedades de masa (masa, CG, inercias) | 6.4 | ___ | 3.4 (preliminar) y 8.4 |
+| 5 | Informe de baterías | 6.5 | ___ | 6.3 y 6.5 |
+| 6 | Verificación dimensional | 6.6 | ___ | 8.2 y 10.1 |
+| 7 | Informe eléctrico (inhibidores, RBF, interruptores) | 6.7 | ___ | 6.5 y 7.6 |
+| 8 | Análisis de venteo | 6.8 | ___ | (no está en el plan: ver dudas) |
+| 9 | Pruebas: DITL, vibración/choque, TVAC bakeout | 6.9 | ___ | 7.8 y 10.1 |
+| 10 | Carta de cumplimiento | 6.10 | ___ | 9.4 |
+| 11 | Paquete de seguridad (MSPSP) | 6.11 | ___ | 10.1 |
+
+### Contraste con el CDS Rev. 14.1
+| Tema | CubeSat 101 (2017) | CDS Rev. 14.1 (2022) | Valor que uso |
+|---|---|---|---|
+| Masa máxima 3U | ___ (Apéndice C.6, p. 82) | 6 kg (2.2.10, Tabla 1) | ___ |
+| Masa de 1U | ___ (1.1, p. 4) | ___ | ___ |
+| Largo 3U y tolerancia | ___ (Apéndice C.6, p. 82) | 340,5 mm (Apéndice B) | ___ |
+| Lista de verificación de aceptación | ___ (6.6, p. 58) | CIFP | ___ |
+| Pin RBF: cuándo se retira | ___ (6.7, p. 58) | ___ (2.3.5) | ___ |
+| Esperas tras la expulsión | ___ (Apéndice C, pp. 70 y 78) | 30 / 45 min (2.4.4 / 2.4.5) | ___ |
+| Pirotecnia | ___ (2.4, p. 16) | ___ | ___ |
 
 ## 3. NASA State-of-the-Art of Small Spacecraft Technology
 (pendiente)
