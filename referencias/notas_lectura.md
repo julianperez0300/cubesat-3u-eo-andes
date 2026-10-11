@@ -15,7 +15,7 @@ Cada dato lleva su fuente (documento, versión y número de sección o página).
 - **Dimensiones de los standoff:** (0,5-7,0) 0,1 min +/- Z (sección 2.2.1.2)
 - **Tolerancia general de los dibujos:** ± 0,1 mm (Apéndice B, pág. 31, cuadro de rótulo)
 - **Masa máxima típica 3U:** 6 kg (sección 2.2.10, Tabla 1)
-- **¿Se puede superar esa masa?:** NO (secciones 2.2.10.1 y 2.2.10.2)
+- **¿Se puede superar esa masa?:** SI, PERO DEPENDE DEL DISPENSADOR (secciones 2.2.10.1 y 2.2.10.2)
 - **Dispensador:** P-POD CAL POLY (RAIL, 3U, ACCESS PORTS, PURGE, RF INSULATION, VIBRATION ATTENUATION, Z CONSTRAINT, -Z ADITIONAL VOLUME(TUNA CAN)) (Tabla 3)
 
 #### Centro de gravedad
@@ -32,7 +32,7 @@ Cada dato lleva su fuente (documento, versión y número de sección o página).
 - **Radio mínimo de los bordes de los rieles:** 1 mm (sección 2.2.7)
 - **Área de contacto en los extremos de los rieles:** 6,5 x 6,5 mm (sección 2.2.8)
 - **Porcentaje mínimo de riel en contacto con el dispensador:** 75% (sección 2.2.9)
-- **Mecanismo de separacion:** RESORTE DE SEPARACION 6,5 N max, CARRERA DE 2,5 mm min (SEPARACION DE OTROS CUBESATS) (sección 2.2.14.1)
+- **Mecanismo de separacion:** RESORTE DE SEPARACION 6,7 N max, CARRERA DE 2,5 mm min (SEPARACION DE OTROS CUBESATS) (sección 2.2.14.1)
 - **Venteo durante el ascenso:** V/A < 50,8 m (sección 2.1.9)
 
 #### Material de la estructura
@@ -45,7 +45,7 @@ Cada dato lleva su fuente (documento, versión y número de sección o página).
 - **Interruptores de despliegue mínimos:** 1 (sección 2.3.2)
 - **Reglas RTC:** AISLADO, FRECUENCIA < 320kHz, CORRIENTE < 10 mA (sección 2.3.3)
 - **Pin RBF y cuánto puede sobresalir:** RETIRAR ANTES DE INTEGRACION  AL DISPENSADOR, 6,5 mm SOBRE LA SUPERFICIE DEL RIEL, CORTAR ENERGIA (sección 2.3.5)
-- **Proteccion de baterias:** SEGURIDAD DE BATERIA, PUEDE ESTAR ENCENDIDA DESDE EL INICIO (sección 2.3.6)
+- **Proteccion de baterias:** SOLO EL CIRCUITO DE PROTECCION PUEDE ESTAR ENERGIZADO DESDE EL INICIO (sección 2.3.6)
 - **Inhibidores contra transmisión RF accidental:** 3 (sección 2.3.7)
 - **Inhibidores contra despliegues accidentales:** 3 (sección 2.3.8)
 - **Campo magnetico de imanes:** 0,5 + CAMPO MAGNETICO TIERRA (GAUSS) (sección 2.1.8)
